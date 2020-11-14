@@ -12,3 +12,12 @@
 
     3.1) Open nvim `nvim`
     3.2) Run `:PlugInstall`
+
+**NOTE:** You may have issues running the first time if you don't have python3 intalled.
+
+```
+brew install python3
+/usr/local/bin/python3 -m venv venv
+. venv/bin/activate
+pip install pynvim
+```
