@@ -5,8 +5,7 @@
 
 2.) Init the nvim config.
     ```
-    mkdir -p $HOME/.config/ \
-    git clone git@github.com:MrCoffey/neovim-config.git nvim
+    mkdir -p $HOME/.config/ && cd $HOME/.config/ && git clone git@github.com:MrCoffey/neovim-config.git nvim
     ```
 
 3.) Install the Plugins
