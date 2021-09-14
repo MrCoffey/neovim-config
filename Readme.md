@@ -21,3 +21,7 @@ brew install python3
 . venv/bin/activate
 pip install pynvim
 ```
+
+You also need update pynvim module.
+
+```pip3 install --user --upgrade pynvim```
